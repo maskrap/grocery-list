@@ -7,8 +7,8 @@ $(document).ready(function() {
     blanks.forEach(function(blank) {
       var userInput = $("input#" + blank).val();
       //capitalize userinput here
-      userInput.toUpperCase();
-      newArray.push(userInput);
+
+      newArray.push(userInput.toUpperCase());
       $("#" + blank).text(userInput);
     });
 
